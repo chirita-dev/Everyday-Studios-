@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Everyday Studios — Photography & Videography in Abuja</title>
+  <meta name="description" content="Timeless portraits, weddings and milestone photography from our studio in Garki, Abuja. Rated 4.9★." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#top" class="logo">Everyday <em>Studios</em></a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="btn btn-primary nav-cta wa-link" target="_blank" rel="noreferrer">Book a Session</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+      <a class="btn btn-primary wa-link" target="_blank" rel="noreferrer">Book a Session</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="top" class="container hero">
+    <div class="fade-up">
+      <p class="eyebrow">Photography &amp; Videography · Abuja</p>
+      <h1>Frame by Frame,<br class="br-lg" /> <em class="gold">Moment</em> by Moment.</h1>
+      <p class="lead">Elevate your visual storytelling with Everyday Studios — capturing timeless portraits, weddings and special events across Abuja.</p>
+      <div class="hero-actions">
+        <div class="btn-row">
+          <a href="#portfolio" class="btn btn-primary">Explore Portfolio ↗</a>
+          <a class="btn btn-outline wa-link" target="_blank" rel="noreferrer"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>Book via WhatsApp</a>
+        </div>
+        <div class="rating"><span class="stars">★★★★★</span> <span><b>4.9</b> from 37 Google reviews</span></div>
+      </div>
+    </div>
+  </section>
+
+ <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container about">
+      <div class="about-left">
+        <p class="eyebrow">01 — About</p>
+        <img src="images/studio-interior.webp" alt="Inside Everyday Studios Abuja" class="about-img" loading="lazy">
+      </div>
+      <div class="about-text">
+        <h2>Crafting <em class="gold">timeless</em> visual memories.</h2>
+        <p class="lead">Located in the heart of Garki, Abuja, Everyday Studios is a photography and videography studio that translates life's most cherished milestones — from intimate portraits and maternity shoots to grand wedding celebrations — into captivating visual art.</p>
+        <div class="stats">
+          <div><strong>4.9★</strong><span>Customer rating on Google</span></div>
+          <div><strong>Studio</strong><span>High-end lighting &amp; backdrops</span></div>
+          <div><strong>Tailored</strong><span>Weddings, attire &amp; baby milestones</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio" class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">02 — Portfolio</p>
+          <h2>Selected <em>work</em></h2>
+        </div>
+        <div class="filters" id="filters">
+          <button class="active" data-filter="all">All</button>
+          <button data-filter="portraits">Portraits</button>
+          <button data-filter="weddings">Weddings &amp; Events</button>
+          <button data-filter="fashion">Fashion</button>
+          <button data-filter="family">Family &amp; Kids</button>
+        </div>
+      </div>
+      <div class="masonry" id="gallery">
+        <figure data-cat="portraits" class="tall"><img src="images/yellow-asoebi.webp" alt="" loading="lazy"><figcaption><span>Portraits</span>Studio photo in a yellow asoebi</figcaption></figure>
+        <figure data-cat="portraits" class="tall"><img src="images/gele-garden.webp" alt="" loading="lazy"><figcaption><span>Portraits</span>Blue lace gele in a sunflower garden</figcaption></figure>
+        <figure data-cat="fashion"><img src="images/red-sofa.webp" alt="" loading="lazy"><figcaption><span>Fashion</span>Lace portrait on a red chesterfield sofa</figcaption></figure>
+        <figure data-cat="family"><img src="images/denim-family.webp" alt="" loading="lazy"><figcaption><span>Family & Kids</span>Mother and daughter in denim</figcaption></figure>
+        <figure data-cat="family" class="tall"><img src="images/newborn.webp" alt="" loading="lazy"><figcaption><span>Family & Kids</span>Newborn on a cloud prop</figcaption></figure>
+        <figure data-cat="portraits"><img src="images/gold-sofa.webp" alt="" loading="lazy"><figcaption><span>Portraits</span>Blue and white traditional attire on a gold sofa</figcaption></figure>
+        <figure data-cat="portraits" class="tall"><img src="images/pink-dress.webp" alt="" loading="lazy"><figcaption><span>Portraits</span>Red gown studio portrait</figcaption></figure>
+        <figure data-cat="weddings"><img src="images/bride-veil.webp" alt="" loading="lazy"><figcaption><span>Weddings & Events</span>Bride with cathedral veil</figcaption></figure>
+        <figure data-cat="weddings"><img src="images/reception.webp" alt="" loading="lazy"><figcaption><span>Weddings &amp; Events</span>Reception sparkler dance</figcaption></figure>
+        <figure data-cat="family" class="tall"><img src="images/maternity-wings.webp" alt="" loading="lazy"><figcaption><span>Family & Kids</span>Pink maternity portrait under a floral arch</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section">
+    <div class="container">
+      <p class="eyebrow">03 — Services</p>
+      <h2>What we <em class="gold">capture</em></h2>
+      <div class="services">
+        <div class="card"><div class="card-top"><span class="icon">◎</span><small>01</small></div><h3>Studio Photography</h3><p>Portraits, headshots, fashion and maternity sessions under controlled light with creative backdrops.</p></div>
+        <div class="card"><div class="card-top"><span class="icon">♡</span><small>02</small></div><h3>Weddings &amp; Events</h3><p>Full coverage of white weddings, traditional ceremonies, receptions and every cake-cutting moment.</p></div>
+        <div class="card"><div class="card-top"><span class="icon">⚖</span><small>03</small></div><h3>Legal &amp; Corporate</h3><p>Call-to-bar portraits and polished corporate profiles that carry quiet authority.</p></div>
+        <div class="card"><div class="card-top"><span class="icon">▶</span><small>04</small></div><h3>Videography &amp; Motion</h3><p>Cinema-grade event highlights and promotional films, edited to feel like a memory.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container contact">
+      <div>
+        <p class="eyebrow">04 — Visit &amp; Book</p>
+        <h2>Let's make something <em class="gold">worth framing.</em></h2>
+        <ul class="info">
+          <li><span class="gold">⌖</span> Suite 5, Nimota Plaza, Plot 855 Tafawa Balewa Way, Garki, Abuja 900247, FCT</li>
+          <li><span class="gold">◷</span> Monday – Saturday · Opens 9:00 AM</li>
+          <li><span class="gold">✆</span> <a href="tel:+2348170253496">+234 817 025 3496</a></li>
+        </ul>
+        <div class="btn-row">
+          <a class="btn btn-primary wa-link" target="_blank" rel="noreferrer"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>Chat on WhatsApp</a>
+          <a class="btn btn-outline" target="_blank" rel="noreferrer" href="https://www.google.com/maps/dir/?api=1&destination=Nimota+Plaza+Tafawa+Balewa+Way+Garki+Abuja">Get Directions ↗</a>
+        </div>
+      </div>
+      <iframe title="Everyday Studios location" loading="lazy" src="https://www.google.com/maps?q=Nimota+Plaza,+Plot+855+Tafawa+Balewa+Way,+Garki,+Abuja&output=embed"></iframe>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer">
+      <div>
+        <div class="logo">Everyday <em>Studios</em></div>
+        <small>© Everyday Studios <span id="year">2026</span>. All rights reserved.</small>
+      </div>
+      <div class="footer-links"><a href="#">Terms &amp; Conditions</a><a href="#">Privacy Policy</a></div>
+      <div class="socials">
+        <a href="https://instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram">IG</a>
+        <a href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook">FB</a>
+        <a class="wa-link" target="_blank" rel="noreferrer" aria-label="WhatsApp">WA</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox">
+    <span class="lightbox-close" id="lightboxClose">&times;</span>
+    <img id="lightbox-img" src="" alt="Enlarged View">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
